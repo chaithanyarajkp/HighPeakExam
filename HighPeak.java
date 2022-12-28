@@ -42,7 +42,7 @@ public class HighPeak {
 		}
 		
 		int[] result = new int[2];
-		result[0] = a-1;
+		result[0] = a.length-1;
 		result[1] = sum-max;
 		
 		return result;
